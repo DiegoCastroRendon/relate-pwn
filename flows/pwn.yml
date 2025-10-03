@@ -13,6 +13,8 @@ rules:
 pages:
   - type: Page
     id: jinja
+    title: "Jinja test"         # <-- título explícito
     content: |
+      # Jinja test              # <-- título también en el body (opcional)
       {{ 7*7 }}
 
