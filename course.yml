@@ -1,0 +1,14 @@
+identifier: hmex
+name: HackMex Course
+listed: true
+active: true
+
+flows:
+  - id: pwn
+    title: Pwn Flow
+    pages:
+      - type: Page
+        id: jinja
+        title: Jinja test
+        content: |
+          {{ 7*7 }}
