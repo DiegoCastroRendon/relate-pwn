@@ -1,14 +1,18 @@
 title: "Pwn Flow"
 description: |
-  # Pwn Flow
+  Prueba rápida de render.
 
 rules:
+  grade_identifier: null
+  start:
+    - may_start_new_session: true
+      may_list_existing_sessions: true
   access:
-    - permissions: [view]   # acceso de lectura
+    - permissions: [view, submit_answer, end_session]
 
 pages:
   - type: Page
     id: jinja
     content: |
-      {{ 7*7 }}         
+      {{ 7*7 }}
 
