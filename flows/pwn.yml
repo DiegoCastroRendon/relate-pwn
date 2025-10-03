@@ -1,0 +1,14 @@
+title: "Pwn Flow"
+description: |
+  # Pwn Flow
+
+rules:
+  access:
+    - permissions: [view]   # acceso de lectura
+
+pages:
+  - type: Page
+    id: jinja
+    content: |
+      {{ 7*7 }}         
+

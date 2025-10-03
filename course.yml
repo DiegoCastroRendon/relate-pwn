@@ -1,14 +1,5 @@
-identifier: hmex
-name: HackMex Course
-listed: true
-active: true
+content: |
+  # HackMex Course
 
-flows:
-  - id: pwn
-    title: Pwn Flow
-    pages:
-      - type: Page
-        id: jinja
-        title: Jinja test
-        content: |
-          {{ 7*7 }}
+  Bienvenid@. Inicia el flow aquí: [Pwn Flow](flow:pwn).
+
